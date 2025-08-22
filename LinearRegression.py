@@ -29,6 +29,7 @@ plt.ylabel("Progressão da diabetes")
 plt.title("Regressão Linear - Diabetes")
 plt.legend()
 plt.grid(True)
+plt.savefig("analise.png", dpi=300)
 plt.show()
 
 
